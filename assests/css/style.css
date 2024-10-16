@@ -463,13 +463,15 @@ body{
 }
 .about_body-img{
     max-width: 550px;
+    height: 380px;
    border-bottom: 1px solid var(--main-color);
    margin-top: -100px;
    pointer-events: none;
 }
 .about_body-img img{
     width: 100%;
-    margin-bottom: -5px;
+    height: 100%;
+    object-fit: cover;
 }
 .about_body-content{
     width: 60%;
