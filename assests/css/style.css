@@ -280,11 +280,13 @@ body{
     margin-top: 3rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .project_card{
     width: 300px;
+    height: 470px;
     border: 1px solid var(--light-dark);
     cursor: pointer;
 }
